@@ -1,0 +1,147 @@
+
+#if 1
+#import "MJRefresh.h"
+#endif
+
+—————————
+
+#if 1 //是否需要用到MJRefresh
+//上下拉要用到的
+@property (nonatomic, assign) BOOL                       noFooterView;
+@property (nonatomic, assign) BOOL                       noHeaderFreshView;
+-(void)removeFooterView;
+-(void)finishReloadingData;
+-(void)setFooterView;
+-(void)startHeaderLoading;
+
+//调用上下拉需要的
+-(void)refreshView;
+-(void)getNextPageView;
+-(void)FinishedLoadData;
+#endif
+
+———————————
+
+#if 1
+/**
+ *  集成刷新控件
+ */
+- (void)setupRefresh
+{
+    // 1.下拉刷新(进入刷新状态就会调用self的refreshView)
+    self.noHeaderFreshView = YES;
+    [self.tableView.header beginRefreshing];
+    self.noFooterView = YES;
+}
+
+-(void)setNoHeaderFreshView:(BOOL)noHeaderFreshView
+{
+    _noHeaderFreshView = noHeaderFreshView;
+    if (noHeaderFreshView) {
+        [self.tableView.header removeFromSuperview];
+    }
+    else
+    {
+        self.tableView.header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(refreshView)];
+//        [self.tableView addHeaderWithTarget:self action:@selector(refreshView)];
+    }
+}
+
+-(void)setNoFooterView:(BOOL)noFooterView
+{
+    _noFooterView = noFooterView;
+    if (noFooterView) {
+        [self.tableView.footer removeFromSuperview];
+    }
+    else
+    {
+        self.tableView.footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(getNextPageView)];
+    }
+}
+
+-(void)refreshView
+{
+}
+-(void)removeFooterView{
+}
+
+-(void)setFooterView{
+}
+
+//调用上下拉需要的
+
+//加载调用的方法
+-(void)getNextPageView
+{
+    
+}
+
+-(void)startHeaderLoading
+{
+    [self.tableView.header beginRefreshing];
+}
+-(void)FinishedLoadData
+{
+    [self.tableView.header  endRefreshing];
+    [self.tableView.footer endRefreshing];
+}
+
+-(void)noMore
+{
+    [self.tableView removeFromSuperview];
+}
+
+-(void)finishReloadingData
+{
+    [self.tableView.header endRefreshing];
+    [self.tableView.footer endRefreshing];
+}
+#endif
+
+
+
+
+
+
+#if 1 //是否需要用到MJRefresh
+
+-(void)setNoHeaderFreshView:(BOOL)noHeaderFreshView
+{
+    _noHeaderFreshView = noHeaderFreshView;
+    if (!_noHeaderFreshView) { @weakify(self);
+        _collectionView.header =  [MJRefreshNormalHeader headerWithRefreshingBlock:^{
+            // 进入刷新状态后会自动调用这个block
+            @strongify(self)
+            [self refreshView];
+        }];
+    }
+}
+
+-(void)setNoFooterView:(BOOL)noFooterView
+{
+    _noFooterView = noFooterView;
+    if (!_noFooterView) {
+        @weakify(self);
+        _collectionView.footer  = [MJRefreshAutoNormalFooter footerWithRefreshingBlock:^{@strongify(self)
+            [self getNextPageView];
+        }];
+    }
+    else
+    {
+        _collectionView.footer = nil;
+    }
+}
+
+-(void)refreshView
+{
+    //    [self.collectionView.header beginRefreshing];
+}
+-(void)getNextPageView
+{
+    //    [self.collectionView.footer beginRefreshing];
+}
+-(void)FinishedLoadData{
+    [self.collectionView.header endRefreshing];
+    [self.collectionView.footer endRefreshing];
+}
+#endif

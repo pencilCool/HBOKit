@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F8C0E42B1D881A14004A04D4 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F8C0E42C1D881A14004A04D4 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				F8C0E42F1D881A1C004A04D4 /* MultiPlatform Build */,
+			);
+			dependencies = (
+				F8C0E4341D881A78004A04D4 /* PBXTargetDependency */,
+				F8C0E4321D881A75004A04D4 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		F8C0E4031D88179E004A04D4 /* CELL_STRUCT_Common.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0E3E81D88179E004A04D4 /* CELL_STRUCT_Common.m */; };
+		F8C0E4041D88179E004A04D4 /* CELL_STRUCT_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0E3EB1D88179E004A04D4 /* CELL_STRUCT_KVO.m */; };
+		F8C0E4051D88179E004A04D4 /* CELL_STRUCT.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0E3ED1D88179E004A04D4 /* CELL_STRUCT.m */; };
+		F8C0E4061D88179E004A04D4 /* HBBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0E3F01D88179E004A04D4 /* HBBaseCollectionViewCell.m */; };
+		F8C0E4071D88179E004A04D4 /* HBBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0E3F31D88179E004A04D4 /* HBBaseCollectionViewController.m */; };
+		F8C0E4081D88179E004A04D4 /* HBBaseSectionCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0E3F51D88179E004A04D4 /* HBBaseSectionCollectionReusableView.m */; };
+		F8C0E4091D88179E004A04D4 /* HBBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0E3F71D88179E004A04D4 /* HBBaseTableViewCell.m */; };
+		F8C0E40A1D88179E004A04D4 /* HBBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0E3F91D88179E004A04D4 /* HBBaseTableViewController.m */; };
+		F8C0E40B1D88179E004A04D4 /* HBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0E3FB1D88179E004A04D4 /* HBBaseViewController.m */; };
+		F8C0E40C1D88179E004A04D4 /* HBCollectionFallFLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0E3FD1D88179E004A04D4 /* HBCollectionFallFLayout.m */; };
+		F8C0E40D1D88179E004A04D4 /* NSObject+HBObjectMap.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0E4001D88179E004A04D4 /* NSObject+HBObjectMap.m */; };
+		F8C0E40E1D88179E004A04D4 /* UIButton+PENG.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C0E4021D88179E004A04D4 /* UIButton+PENG.m */; };
+		F8C0E4101D88182C004A04D4 /* HBOKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E3FE1D88179E004A04D4 /* HBOKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E4111D88182F004A04D4 /* CELL_STRUCT_Common.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E3E71D88179E004A04D4 /* CELL_STRUCT_Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E4121D881833004A04D4 /* CELL_STRUCT_KEY.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E3E91D88179E004A04D4 /* CELL_STRUCT_KEY.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E4131D881837004A04D4 /* CELL_STRUCT_KVO.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E3EA1D88179E004A04D4 /* CELL_STRUCT_KVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E4141D881839004A04D4 /* CELL_STRUCT.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E3EC1D88179E004A04D4 /* CELL_STRUCT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E4151D88183D004A04D4 /* HBBaseCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E3EF1D88179E004A04D4 /* HBBaseCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E4161D881840004A04D4 /* HBBaseCollectionViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E3F21D88179E004A04D4 /* HBBaseCollectionViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E4171D881842004A04D4 /* HBBaseSectionCollectionReusableView.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E3F41D88179E004A04D4 /* HBBaseSectionCollectionReusableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E4181D881844004A04D4 /* HBBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E3F61D88179E004A04D4 /* HBBaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E4191D881846004A04D4 /* HBBaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E3F81D88179E004A04D4 /* HBBaseTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E41A1D881847004A04D4 /* HBBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E3FA1D88179E004A04D4 /* HBBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E41B1D881849004A04D4 /* HBCollectionFallFLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E3FC1D88179E004A04D4 /* HBCollectionFallFLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E41C1D88184C004A04D4 /* NSObject+HBObjectMap.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E3FF1D88179E004A04D4 /* NSObject+HBObjectMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E41D1D88184E004A04D4 /* UIButton+PENG.h in Headers */ = {isa = PBXBuildFile; fileRef = F8C0E4011D88179E004A04D4 /* UIButton+PENG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8C0E4291D88197F004A04D4 /* cellstruct.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8C0E3EE1D88179E004A04D4 /* cellstruct.plist */; };
+		F8C0E42A1D881989004A04D4 /* HBBaseCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8C0E3F11D88179E004A04D4 /* HBBaseCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8C0E4311D881A75004A04D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C0E3D31D88120D004A04D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C0E3DA1D88120D004A04D4;
+			remoteInfo = HBOKit;
+		};
+		F8C0E4331D881A78004A04D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8C0E3D31D88120D004A04D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C0E4211D88186E004A04D4;
+			remoteInfo = HBOKitResource;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F8C0E3D91D88120D004A04D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F8C0E3DB1D88120D004A04D4 /* libHBOKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHBOKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C0E3E71D88179E004A04D4 /* CELL_STRUCT_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CELL_STRUCT_Common.h; sourceTree = "<group>"; };
+		F8C0E3E81D88179E004A04D4 /* CELL_STRUCT_Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CELL_STRUCT_Common.m; sourceTree = "<group>"; };
+		F8C0E3E91D88179E004A04D4 /* CELL_STRUCT_KEY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CELL_STRUCT_KEY.h; sourceTree = "<group>"; };
+		F8C0E3EA1D88179E004A04D4 /* CELL_STRUCT_KVO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CELL_STRUCT_KVO.h; sourceTree = "<group>"; };
+		F8C0E3EB1D88179E004A04D4 /* CELL_STRUCT_KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CELL_STRUCT_KVO.m; sourceTree = "<group>"; };
+		F8C0E3EC1D88179E004A04D4 /* CELL_STRUCT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CELL_STRUCT.h; sourceTree = "<group>"; };
+		F8C0E3ED1D88179E004A04D4 /* CELL_STRUCT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CELL_STRUCT.m; sourceTree = "<group>"; };
+		F8C0E3EE1D88179E004A04D4 /* cellstruct.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cellstruct.plist; sourceTree = "<group>"; };
+		F8C0E3EF1D88179E004A04D4 /* HBBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		F8C0E3F01D88179E004A04D4 /* HBBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		F8C0E3F11D88179E004A04D4 /* HBBaseCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBBaseCollectionViewCell.xib; sourceTree = "<group>"; };
+		F8C0E3F21D88179E004A04D4 /* HBBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBaseCollectionViewController.h; sourceTree = "<group>"; };
+		F8C0E3F31D88179E004A04D4 /* HBBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBaseCollectionViewController.m; sourceTree = "<group>"; };
+		F8C0E3F41D88179E004A04D4 /* HBBaseSectionCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBaseSectionCollectionReusableView.h; sourceTree = "<group>"; };
+		F8C0E3F51D88179E004A04D4 /* HBBaseSectionCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBaseSectionCollectionReusableView.m; sourceTree = "<group>"; };
+		F8C0E3F61D88179E004A04D4 /* HBBaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBaseTableViewCell.h; sourceTree = "<group>"; };
+		F8C0E3F71D88179E004A04D4 /* HBBaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBaseTableViewCell.m; sourceTree = "<group>"; };
+		F8C0E3F81D88179E004A04D4 /* HBBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBaseTableViewController.h; sourceTree = "<group>"; };
+		F8C0E3F91D88179E004A04D4 /* HBBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBaseTableViewController.m; sourceTree = "<group>"; };
+		F8C0E3FA1D88179E004A04D4 /* HBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBaseViewController.h; sourceTree = "<group>"; };
+		F8C0E3FB1D88179E004A04D4 /* HBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBaseViewController.m; sourceTree = "<group>"; };
+		F8C0E3FC1D88179E004A04D4 /* HBCollectionFallFLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBCollectionFallFLayout.h; sourceTree = "<group>"; };
+		F8C0E3FD1D88179E004A04D4 /* HBCollectionFallFLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBCollectionFallFLayout.m; sourceTree = "<group>"; };
+		F8C0E3FE1D88179E004A04D4 /* HBOKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBOKit.h; sourceTree = "<group>"; };
+		F8C0E3FF1D88179E004A04D4 /* NSObject+HBObjectMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+HBObjectMap.h"; sourceTree = "<group>"; };
+		F8C0E4001D88179E004A04D4 /* NSObject+HBObjectMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+HBObjectMap.m"; sourceTree = "<group>"; };
+		F8C0E4011D88179E004A04D4 /* UIButton+PENG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PENG.h"; sourceTree = "<group>"; };
+		F8C0E4021D88179E004A04D4 /* UIButton+PENG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PENG.m"; sourceTree = "<group>"; };
+		F8C0E4221D88186E004A04D4 /* HBOKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBOKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C0E4241D88186E004A04D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8C0E3D81D88120D004A04D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C0E41F1D88186E004A04D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8C0E3D21D88120D004A04D4 = {
+			isa = PBXGroup;
+			children = (
+				F8C0E3DD1D88120D004A04D4 /* HBO */,
+				F8C0E4231D88186E004A04D4 /* HBOResource */,
+				F8C0E3DC1D88120D004A04D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8C0E3DC1D88120D004A04D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8C0E3DB1D88120D004A04D4 /* libHBOKit.a */,
+				F8C0E4221D88186E004A04D4 /* HBOKit.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8C0E3DD1D88120D004A04D4 /* HBO */ = {
+			isa = PBXGroup;
+			children = (
+				F8C0E3E71D88179E004A04D4 /* CELL_STRUCT_Common.h */,
+				F8C0E3E81D88179E004A04D4 /* CELL_STRUCT_Common.m */,
+				F8C0E3E91D88179E004A04D4 /* CELL_STRUCT_KEY.h */,
+				F8C0E3EA1D88179E004A04D4 /* CELL_STRUCT_KVO.h */,
+				F8C0E3EB1D88179E004A04D4 /* CELL_STRUCT_KVO.m */,
+				F8C0E3EC1D88179E004A04D4 /* CELL_STRUCT.h */,
+				F8C0E3ED1D88179E004A04D4 /* CELL_STRUCT.m */,
+				F8C0E3EE1D88179E004A04D4 /* cellstruct.plist */,
+				F8C0E3EF1D88179E004A04D4 /* HBBaseCollectionViewCell.h */,
+				F8C0E3F01D88179E004A04D4 /* HBBaseCollectionViewCell.m */,
+				F8C0E3F11D88179E004A04D4 /* HBBaseCollectionViewCell.xib */,
+				F8C0E3F21D88179E004A04D4 /* HBBaseCollectionViewController.h */,
+				F8C0E3F31D88179E004A04D4 /* HBBaseCollectionViewController.m */,
+				F8C0E3F41D88179E004A04D4 /* HBBaseSectionCollectionReusableView.h */,
+				F8C0E3F51D88179E004A04D4 /* HBBaseSectionCollectionReusableView.m */,
+				F8C0E3F61D88179E004A04D4 /* HBBaseTableViewCell.h */,
+				F8C0E3F71D88179E004A04D4 /* HBBaseTableViewCell.m */,
+				F8C0E3F81D88179E004A04D4 /* HBBaseTableViewController.h */,
+				F8C0E3F91D88179E004A04D4 /* HBBaseTableViewController.m */,
+				F8C0E3FA1D88179E004A04D4 /* HBBaseViewController.h */,
+				F8C0E3FB1D88179E004A04D4 /* HBBaseViewController.m */,
+				F8C0E3FC1D88179E004A04D4 /* HBCollectionFallFLayout.h */,
+				F8C0E3FD1D88179E004A04D4 /* HBCollectionFallFLayout.m */,
+				F8C0E3FE1D88179E004A04D4 /* HBOKit.h */,
+				F8C0E3FF1D88179E004A04D4 /* NSObject+HBObjectMap.h */,
+				F8C0E4001D88179E004A04D4 /* NSObject+HBObjectMap.m */,
+				F8C0E4011D88179E004A04D4 /* UIButton+PENG.h */,
+				F8C0E4021D88179E004A04D4 /* UIButton+PENG.m */,
+			);
+			path = HBO;
+			sourceTree = "<group>";
+		};
+		F8C0E4231D88186E004A04D4 /* HBOResource */ = {
+			isa = PBXGroup;
+			children = (
+				F8C0E4241D88186E004A04D4 /* Info.plist */,
+			);
+			path = HBOResource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F8C0E40F1D881813004A04D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C0E4101D88182C004A04D4 /* HBOKit.h in Headers */,
+				F8C0E4111D88182F004A04D4 /* CELL_STRUCT_Common.h in Headers */,
+				F8C0E4131D881837004A04D4 /* CELL_STRUCT_KVO.h in Headers */,
+				F8C0E4151D88183D004A04D4 /* HBBaseCollectionViewCell.h in Headers */,
+				F8C0E4141D881839004A04D4 /* CELL_STRUCT.h in Headers */,
+				F8C0E4171D881842004A04D4 /* HBBaseSectionCollectionReusableView.h in Headers */,
+				F8C0E4181D881844004A04D4 /* HBBaseTableViewCell.h in Headers */,
+				F8C0E4191D881846004A04D4 /* HBBaseTableViewController.h in Headers */,
+				F8C0E41A1D881847004A04D4 /* HBBaseViewController.h in Headers */,
+				F8C0E41C1D88184C004A04D4 /* NSObject+HBObjectMap.h in Headers */,
+				F8C0E41B1D881849004A04D4 /* HBCollectionFallFLayout.h in Headers */,
+				F8C0E4161D881840004A04D4 /* HBBaseCollectionViewController.h in Headers */,
+				F8C0E41D1D88184E004A04D4 /* UIButton+PENG.h in Headers */,
+				F8C0E4121D881833004A04D4 /* CELL_STRUCT_KEY.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F8C0E3DA1D88120D004A04D4 /* HBOKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C0E3E41D88120D004A04D4 /* Build configuration list for PBXNativeTarget "HBOKit" */;
+			buildPhases = (
+				F8C0E3D71D88120D004A04D4 /* Sources */,
+				F8C0E3D81D88120D004A04D4 /* Frameworks */,
+				F8C0E3D91D88120D004A04D4 /* CopyFiles */,
+				F8C0E40F1D881813004A04D4 /* Headers */,
+				F8C0E4281D881884004A04D4 /* Build Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBOKit;
+			productName = HBO;
+			productReference = F8C0E3DB1D88120D004A04D4 /* libHBOKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F8C0E4211D88186E004A04D4 /* HBOKitResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8C0E4251D88186E004A04D4 /* Build configuration list for PBXNativeTarget "HBOKitResource" */;
+			buildPhases = (
+				F8C0E41E1D88186E004A04D4 /* Sources */,
+				F8C0E41F1D88186E004A04D4 /* Frameworks */,
+				F8C0E4201D88186E004A04D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HBOKitResource;
+			productName = HBOResource;
+			productReference = F8C0E4221D88186E004A04D4 /* HBOKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8C0E3D31D88120D004A04D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YY.COM;
+				TargetAttributes = {
+					F8C0E3DA1D88120D004A04D4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F8C0E4211D88186E004A04D4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F8C0E42B1D881A14004A04D4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F8C0E3D61D88120D004A04D4 /* Build configuration list for PBXProject "HBOKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F8C0E3D21D88120D004A04D4;
+			productRefGroup = F8C0E3DC1D88120D004A04D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8C0E3DA1D88120D004A04D4 /* HBOKit */,
+				F8C0E4211D88186E004A04D4 /* HBOKitResource */,
+				F8C0E42B1D881A14004A04D4 /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8C0E4201D88186E004A04D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C0E4291D88197F004A04D4 /* cellstruct.plist in Resources */,
+				F8C0E42A1D881989004A04D4 /* HBBaseCollectionViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F8C0E4281D881884004A04D4 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n\n\n";
+		};
+		F8C0E42F1D881A1C004A04D4 /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n\n# Ensure that the framework is present in both platorm's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"\n\n# Copy the resources bundle to the user's desktop\nditto \"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.bundle\" \\\n\"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.bundle\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8C0E3D71D88120D004A04D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C0E4031D88179E004A04D4 /* CELL_STRUCT_Common.m in Sources */,
+				F8C0E40E1D88179E004A04D4 /* UIButton+PENG.m in Sources */,
+				F8C0E40C1D88179E004A04D4 /* HBCollectionFallFLayout.m in Sources */,
+				F8C0E40D1D88179E004A04D4 /* NSObject+HBObjectMap.m in Sources */,
+				F8C0E4061D88179E004A04D4 /* HBBaseCollectionViewCell.m in Sources */,
+				F8C0E40A1D88179E004A04D4 /* HBBaseTableViewController.m in Sources */,
+				F8C0E4081D88179E004A04D4 /* HBBaseSectionCollectionReusableView.m in Sources */,
+				F8C0E40B1D88179E004A04D4 /* HBBaseViewController.m in Sources */,
+				F8C0E4091D88179E004A04D4 /* HBBaseTableViewCell.m in Sources */,
+				F8C0E4071D88179E004A04D4 /* HBBaseCollectionViewController.m in Sources */,
+				F8C0E4051D88179E004A04D4 /* CELL_STRUCT.m in Sources */,
+				F8C0E4041D88179E004A04D4 /* CELL_STRUCT_KVO.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C0E41E1D88186E004A04D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8C0E4321D881A75004A04D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C0E3DA1D88120D004A04D4 /* HBOKit */;
+			targetProxy = F8C0E4311D881A75004A04D4 /* PBXContainerItemProxy */;
+		};
+		F8C0E4341D881A78004A04D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C0E4211D88186E004A04D4 /* HBOKitResource */;
+			targetProxy = F8C0E4331D881A78004A04D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8C0E3E21D88120D004A04D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F8C0E3E31D88120D004A04D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8C0E3E51D88120D004A04D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = HBOKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		F8C0E3E61D88120D004A04D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = HBOKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		F8C0E4261D88186E004A04D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = HBOResource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.HBOResource;
+				PRODUCT_NAME = HBOKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F8C0E4271D88186E004A04D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = NO;
+				INFOPLIST_FILE = HBOResource/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.HBOResource;
+				PRODUCT_NAME = HBOKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		F8C0E42D1D881A14004A04D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F8C0E42E1D881A14004A04D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8C0E3D61D88120D004A04D4 /* Build configuration list for PBXProject "HBOKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C0E3E21D88120D004A04D4 /* Debug */,
+				F8C0E3E31D88120D004A04D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C0E3E41D88120D004A04D4 /* Build configuration list for PBXNativeTarget "HBOKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C0E3E51D88120D004A04D4 /* Debug */,
+				F8C0E3E61D88120D004A04D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C0E4251D88186E004A04D4 /* Build configuration list for PBXNativeTarget "HBOKitResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C0E4261D88186E004A04D4 /* Debug */,
+				F8C0E4271D88186E004A04D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8C0E42C1D881A14004A04D4 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8C0E42D1D881A14004A04D4 /* Debug */,
+				F8C0E42E1D881A14004A04D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8C0E3D31D88120D004A04D4 /* Project object */;
+}
